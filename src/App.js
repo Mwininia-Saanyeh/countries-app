@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomeScreen from "./screens/HomeScreen";
 import ContactScreen from "./screens/ContactScreen";
 import AboutScreen from "./screens/AboutScreen";
-import DetailScreen from "./screens/DetailScreen";
+import ProductScreen from "./screens/ProductScreen";
 import Header from "./Components/Header";
 
 function App(){
@@ -14,8 +14,9 @@ function App(){
        <Route path="/" element={<HomeScreen/>}/>
        <Route path="/contact" element={<ContactScreen/>}/>
        <Route path="/about" element={<AboutScreen/>}/>
-       <Route path="/detail" element={<DetailScreen/>}/>
-    </Routes></div>
+       <Route path="/product" element={<ProductScreen/>}/>
+    </Routes>
+    </div>
     </BrowserRouter>
   )
 }
